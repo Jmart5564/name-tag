@@ -72,3 +72,12 @@ span {
     font-size: 40px;
     font-family: fantasy;
 }
+
+#free-time {
+    background-color: forestgreen;
+    width: 350px;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
