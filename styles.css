@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Hubballi', cursive;
-    background-color: rgb(95, 135, 88);
+    background-color: rgb(73, 151, 59);
 }
 
 header {
@@ -29,10 +29,10 @@ footer {
 }
 
 #name-tag {
-    background-color: rgb(88, 18, 187);
+    background-color: rgb(8, 78, 41);
     text-align: center;
     width: 300px;
-    color: rgb(186, 147, 218);
+    color: rgb(68, 172, 155);
 }
 
 #greeting-display {
@@ -48,8 +48,16 @@ span {
     display: block;
 }
 
+#name-label {
+    color: rgb(224, 235, 227);
+    background-color: black;
+    font-weight: 200;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
 #name-display {
-    background-color: gray;
+    background-color: rgb(25, 6, 6);
     padding-top: 15px;
     padding-bottom:15px;
     font-weight:200;
