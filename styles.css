@@ -33,6 +33,9 @@ footer {
     text-align: center;
     width: 300px;
     color: rgb(68, 172, 155);
+    border-style: inset;
+    border-color: black;
+    border-radius: 25px;
 }
 
 #greeting-display {
@@ -48,12 +51,17 @@ span {
     display: block;
 }
 
-#name-label {
+#labels {
     color: rgb(224, 235, 227);
     background-color: black;
     font-weight: 200;
     font-size: 25px;
     padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    
 }
 
 #name-display {
