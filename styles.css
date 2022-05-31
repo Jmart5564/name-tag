@@ -27,3 +27,12 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+#name-tag {
+    background-color: red;
+    text-align: center;
+}
+
+span {
+    display: block;
+}
