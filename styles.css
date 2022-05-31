@@ -29,10 +29,19 @@ footer {
 }
 
 #name-tag {
-    background-color: red;
+    background-color: rgb(88, 18, 187);
     text-align: center;
+    width: 250px;
+    color: rgb(186, 147, 218);
 }
 
 span {
     display: block;
+}
+
+#name-display {
+    background-color: gray;
+    padding-top: 15px;
+    padding-bottom:15px;
+    font-weight:600;
 }
