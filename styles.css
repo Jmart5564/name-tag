@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Hubballi', cursive;
-    background-color: rgb(164, 113, 164);
+    background-color: rgb(95, 135, 88);
 }
 
 header {
@@ -52,6 +52,7 @@ span {
     background-color: gray;
     padding-top: 15px;
     padding-bottom:15px;
-    font-weight:600;
-    font-size: 50px
+    font-weight:200;
+    font-size: 40px;
+    font-family: fantasy;
 }

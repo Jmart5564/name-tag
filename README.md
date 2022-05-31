@@ -1,3 +1,5 @@
+Looking to create good habits from the get go by making a lot of commits and validating my JS code.
+
 ## The Golden Rule:
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
