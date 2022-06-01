@@ -6,10 +6,28 @@
     --footer-background: rgb(243, 242, 242);
 }
 
-body {
+/* body {
     font-family: 'Hubballi', cursive;
-    background-color: rgb(73, 151, 59);
-}
+} */
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+   }
+   
+   @keyframes gradient {
+    0% {
+     background-position: 0% 50%;
+    }
+    50% {
+     background-position: 100% 50%;
+    }
+    100% {
+     background-position: 0% 50%;
+    }
+   }
 
 header {
     display: flex;
@@ -32,10 +50,9 @@ footer {
     background-color: rgb(8, 78, 41);
     text-align: center;
     width: 300px;
-    color: rgb(68, 172, 155);
-    border-style: inset;
-    border-color: black;
+    color: rgb(211, 255, 37);
     border-radius: 25px;
+    box-shadow: rgba(79, 150, 131, 0.4) 5px 5px, rgba(81, 178, 149, 0.3) 10px 10px, rgba(38, 180, 166, 0.2) 15px 15px, rgba(10, 139, 122, 0.1) 20px 20px, rgba(22, 144, 115, 0.05) 25px 25px;
 }
 
 #greeting-display {
@@ -51,7 +68,7 @@ span {
     display: block;
 }
 
-#labels {
+.labels {
     color: rgb(224, 235, 227);
     background-color: black;
     font-weight: 200;
@@ -70,14 +87,15 @@ span {
     padding-bottom:15px;
     font-weight:200;
     font-size: 40px;
-    font-family: fantasy;
+    font-family: Creepster;
 }
 
 #free-time {
-    background-color: forestgreen;
+    background-color: rgba(34, 139, 34, 0.641);
     width: 350px;
     text-align: center;
     font-size: 40px;
     padding-bottom: 10px;
-
+    border-radius: 25px;
+    box-shadow: rgba(79, 150, 131, 0.4) 5px 5px, rgba(81, 178, 149, 0.3) 10px 10px, rgba(38, 180, 166, 0.2) 15px 15px, rgba(10, 139, 122, 0.1) 20px 20px, rgba(22, 144, 115, 0.05) 25px 25px;
 }
