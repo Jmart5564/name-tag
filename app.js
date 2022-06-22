@@ -4,9 +4,7 @@ const nameDisplay = document.getElementById('name-display');
 // set event listeners
 nameInput.addEventListener('input', () => {
     const name = nameInput.value;
-    console.log(name);
     nameDisplay.textContent = name;
-    console.log(name);
 });
 
 const freetimeInput = document.getElementById('freetime-input');
