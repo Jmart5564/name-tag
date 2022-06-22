@@ -7,16 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles.css" />
     <title>Web UI Project</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&family=Space+Mono&display=swap" rel="stylesheet"
 </head>
 
 <body>
     <header>
-        <img src="assets/html_css_js.png">
-        <h1>Web UI Project</h1>
+        
     </header>
 
     <main>
-
+        <section>
+            <h2>Enter Your Information Here</h2>
+            <label class="labels">
+                Name:
+                <input id="name-input">
+            </label>
+            <label class="labels">
+                In my free time I like to:
+                <input id="freetime-input">
+            </label>
+        </section>
+        <p id="name-tag">
+            <br><span id="greeting-display">HELLO</span>
+            <span id="intro-display">My Name Is</span><br>
+            <span id="name-display">Jessica</span><br><br>
+        </p>
+        <p id="free-time">
+            <span>In my free time I like to:</span>
+            <span id="freetime-display">go mushroom hunting</span>
+        </p>
     </main>
 
     <footer>&copy;2021 Aspiring Software Developer</footer>

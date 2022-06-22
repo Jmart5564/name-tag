@@ -1,4 +1,14 @@
-## The Golden Rule:
+# List of state and events
+
+Looking to create good habits from the get go by making a lot of commits and validating my JS code.
+
+List of state:
+Name -lives in input
+
+Events:
+'input' when the user types into the input box
+
+## The Golden Rule
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
